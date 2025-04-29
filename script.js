@@ -9,8 +9,7 @@ function runOnce() {
     let max = Math.floor(12);
     rand = Math.floor(Math.random() * (max - min) + min);
     const imgElement = document.getElementById('tuna');
-    //imgElement.src = 'tuna/tuna' + rand + '.jpg';
-    imgElement.src = 'tuna/tuna1.png';
+    imgElement.src = 'tuna/tuna' + rand + '.jpg';
     hasRun = true;
   } else {
     console.log("Function has already run");
